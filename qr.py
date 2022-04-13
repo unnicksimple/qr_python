@@ -3,7 +3,7 @@
 """
 Created on Wed Apr 13 05:27:37 2022
 
-@author: unnick
+@author: Luis Suárez @unnicksimple
 """
 
 import sys
@@ -14,6 +14,9 @@ from PIL import Image, ImageDraw, ImageFont
 # pie de qr
 # version
 # dimension
+
+#Importante cambiar la ruta de la fuente en windows y obviamente pasarlo a .exe
+#Este script fue hecho en linux 
 
 #ejecucion python qr.py "otra cosa"
 
