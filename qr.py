@@ -35,7 +35,7 @@ img = qr.make_image()
 
 img.save('/home/unnick/Pictures/codigo.png')
 
-img = Image.open('/home/unnick/Pictures/codigo.png')
+img = Image.open('/path/codigo.png')
 ancho, alto = img.size
 
 img = img.resize((330, 330), Image.ANTIALIAS)
@@ -44,4 +44,4 @@ draw = ImageDraw.Draw(img)
 
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", 20)
 draw.text((30, 300), datos, font=font, fill="black")
-img.save('/home/unnick/Pictures/codigo_txt.png')
+img.save('/path/codigo_txt.png')
